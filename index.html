@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citas</title>
+  </head>
+  <body>
+    <section>
+      <p>GET</p>
+      <form action="/citas" method="get">
+        <label for="titulo">Titulo:</label>
+        <input type="text" name="titulo" id="titulo" required />
+        <input type="submit" value="get" />
+      </form>
+    </section>
+
+    <section>
+      <p>POST</p>
+      <form action="/citas" method="post">
+        <label for="titulo">Titulo:</label>
+        <input type="text" name="titulo" id="titulo" />
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha"  />
+        <label for="descripcion">Descripcion:</label>
+        <input type="text" name="descripcion" id="descripcion"  />
+        <label for="invitados">Invitados</label>
+        <input type="text" name="invitados" id="invitados" />
+        <input type="submit" value="post" />
+      </form>
+    </section>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+
+###
+# Cambiar una cita
+PUT http://localhost:3000/citas/1
+Content-Type: application/json
+
+{
+    "titulo": "Cumpleaños de Luis",
+    "fecha": "03/05/2026",
+    "descripcion": "El evento de Luis",
+    "invitados": [
+            "luisbarrado@gmail.com"
+    ]
+}
+
+###
+
+###
+# Borrar una cita
+DELETE http://localhost:3000/citas/1
+
+###
